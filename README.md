@@ -1,13 +1,12 @@
 # Angular 7.2.15 with jspm2 example
-## Only dev mode!
-
+## Only development! JIT mode
 
 
 ### Guide
 
 ```
-  jspm install
-  npm install
+jspm install
+npm install
 ```
 
 Start develop:
@@ -38,3 +37,8 @@ import core from '@angular/core';
   ...
 ```
 If desired, you can turn on transpiler.
+
+
+### TODO
+- Add transpiler
+- Add builder to production (AOT)
